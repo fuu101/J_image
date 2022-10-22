@@ -13,13 +13,14 @@ dropbox = os.path.join(user_path, r"Dropbox\Cambodia\2022\10-14")
 
 # remove_and_rename() 
 
-# removing.NEF_in(desktop_newF)
+removing.original_photo_in(desktop_newF)
 # removing.folder_lightExp_in(desktop)
 
 # moving.JPG_from(desktop, dropbox)
 # moving.JPG_from(desktop_newF, dropbox)
 
 # copying.JPG_from(desktop_newF, dropbox)
+# copying.JPG_from(desktop, dropbox)
 
 printing2.result_of(dropbox) 
 

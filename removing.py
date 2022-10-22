@@ -19,7 +19,7 @@ def invoice_in(date_folder):
             print (f'{error}')
 
 # Remove NEF files 
-def NEF_in(date_folder):
+def original_photo_in(date_folder):
     os.chdir(date_folder)
 
     for image_folder in os.listdir():
