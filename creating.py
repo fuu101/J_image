@@ -3,7 +3,7 @@ import os
 # create folder A, B, Charley in image_folder
 NEWFOLDERS = ['A', 'B', 'Charley']
 
-def folder_ABC_in(date_folder):
+def ABCharely_folder(date_folder):
     
     os.chdir(date_folder)
     for image_folder in os.listdir():

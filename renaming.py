@@ -1,6 +1,6 @@
 import os
 
-def NEF_in(date_folder):
+def NEF_file(date_folder):
     # e.g. date_folder = 9-30
     os.chdir(date_folder)
 
@@ -21,4 +21,3 @@ def NEF_in(date_folder):
 
         except OSError as error:
             print (error)
-            print (f'{error}')

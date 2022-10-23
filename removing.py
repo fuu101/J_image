@@ -3,7 +3,7 @@ import shutil
 from send2trash import send2trash
 
 # Remove invoice 
-def invoice_in(date_folder):
+def invoice(date_folder):
     os.chdir(date_folder)
 
     for image_folder in os.listdir():
@@ -19,7 +19,7 @@ def invoice_in(date_folder):
             print (f'{error}')
 
 # Remove NEF files 
-def original_photo_in(date_folder):
+def NEF_file(date_folder):
     os.chdir(date_folder)
 
     for image_folder in os.listdir():
@@ -36,7 +36,7 @@ def original_photo_in(date_folder):
             print (f'{error}')
 
 # Remove light.exp folder
-def folder_lightExp_in(date_folder):
+def lightexp_folder(date_folder):
     os.chdir(date_folder)
     
     for image_folder in os.listdir():
@@ -49,7 +49,7 @@ def folder_lightExp_in(date_folder):
             print (f'{error}')
 
 # Remove A, B , C folders
-def folder_ABCharley_in(date_folder):
+def ABCharely_folder(date_folder):
     os.chdir(date_folder)
 
     for image_folder in os.listdir():

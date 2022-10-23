@@ -2,7 +2,7 @@ import os
 import shutil
 import creating
 
-def JPG_from(source_folder, destination_folder):
+def edited_image(source_folder, destination_folder):
     os.chdir(source_folder)
 
     for image_folder in os.listdir():
@@ -19,7 +19,7 @@ def JPG_from(source_folder, destination_folder):
 
         os.chdir(f"{source_folder}")
 
-    creating.folder_ABC_in(destination_folder)  
+    creating.ABCharely_folder(destination_folder)  
 
 # Function test
 # JPG_from(r"C:\Users\Dell\Desktop\test1", r"C:\Users\Dell\Desktop\test2")

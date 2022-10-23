@@ -1,7 +1,7 @@
 import os
 
 # count how many files there are in folderA, B, C and Charley
-def result_of(date_folder):
+def result(date_folder):
     os.chdir(date_folder)
     Folder = os.listdir()
     Folder.sort(key=lambda s: tuple(int(n) for n in s.split('-')))
